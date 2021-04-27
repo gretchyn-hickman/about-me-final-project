@@ -42,7 +42,6 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -74,6 +73,15 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.aboutImg {
+  max-width: 300px;
+}
+p.needsBorder {
+  border: 3px solid var(--secondary-color);
+}
+.morePink {
+    color: var(--primary-color);
+}
 
 .homepage-link {
   color: var(--primary-color);
@@ -87,7 +95,8 @@ p {
 }
 
 .about-paragraphs p {
-  margin: 10px;
+  margin: 5px;
+  background-color: var(--secondary-color);
 }
 .app-button {
   text-align: center;
