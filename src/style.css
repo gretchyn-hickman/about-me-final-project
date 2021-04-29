@@ -76,7 +76,7 @@ p {
 .aboutImg {
   max-width: 300px;
 }
-p.needsBorder {
+.needsBorder {
   border: 3px solid var(--secondary-color);
   background-color: white;
 }
