@@ -114,6 +114,15 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.new-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 .container {
   width: 100%;
 }
